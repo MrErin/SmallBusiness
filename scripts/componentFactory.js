@@ -4,8 +4,8 @@ const componentFactory = (type, contents, classes) => {
 	component.classList = classes
 	return component
 }
-const h1 = (...params) => componentFactory('h1', ...params)
-const section = (...params) => componentFactory('section', ...params)
-const div = (...params) => componentFactory('div', ...params)
-const p = (...params) => componentFactory('p', ...params)
-const article = (...params) => componentFactory('article', ...params)
+
+
+const appendinator = (parent, child) => {
+	parent.appendChild(child)
+}

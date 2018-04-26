@@ -25,6 +25,6 @@ const determineSave = () => {
 		employeeCards = []
 		cardDataRollup()
 	} else {
-		saveCatalog()
+		saveDatabase()
 	}
 }

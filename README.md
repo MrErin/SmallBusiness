@@ -8,11 +8,9 @@ A small business wants to keep track of its employees and the computers that the
 
 ## Remaining Features:
 
-1. Once your data is normalized, use your DOM skills to display a card for each employee. It should display the employee name, the name of their department, and which computer they are using
 
 ## Stretch Goals:
 
-* Styles
 
 ## Completed Features:
 
@@ -20,6 +18,8 @@ A small business wants to keep track of its employees and the computers that the
 1. Assign every resource a unique id property.
 1. Assign each employee to a department using a foreign key.
 1. Assign each employee a computer using a foreign key.
+1. Once your data is normalized, use your DOM skills to display a card for each employee. It should display the employee name, the name of their department, and which computer they are using
+* Styles
 
 ## Data Structure:
 

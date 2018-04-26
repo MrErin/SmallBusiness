@@ -12,9 +12,7 @@ const cardDataRollup = () =>{
 				if (person.employeeId === relationship.employeeId && relationship.departmentId === department.departmentId) {
 					empDeptData = department.name
 				}
-
 			})
-
 		})
 		EmployeeComputers.forEach(compRelationship => {
 			Computers.forEach(computer => {
